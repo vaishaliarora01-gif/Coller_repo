@@ -9,6 +9,6 @@ jobs:
 
     with:
 
-      app-name: "my-app"
+      app-name: "my-app1"
 
     secrets: inherit
