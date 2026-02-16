@@ -1,0 +1,14 @@
+name: Caller Workflow
+on:
+
+  push:
+jobs:
+  call-reusable:
+
+    uses: org-b/central-repo/.github/workflows/reusable.yml@main
+
+    with:
+
+      app-name: "my-app"
+
+    secrets: inherit
