@@ -5,7 +5,7 @@ on:
 jobs:
   call-reusable:
 
-    uses: org-b/central-repo/.github/workflows/reusable.yml@main
+    uses: Organization15/central_repo1/.github/workflows/reusable.yaml@main
 
     with:
 
